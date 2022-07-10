@@ -5,6 +5,8 @@
 
 微信公众平台（订阅号）聊天的机器人 OneBot 12 实现。
 
+Woap 全称是 WeChat Official Accounts Platform。
+
 首次采用 [php-libonebot](https://github.com/botuniverse/php-libonebot) 快速开发！
 
 ## 提示
