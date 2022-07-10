@@ -1,5 +1,8 @@
 # onebot-woap
 
+![](https://img.shields.io/badge/OneBot-12-black)
+![](https://img.shields.io/github/license/zhamao-robot/zhamao-framework?label=License)
+
 微信公众平台（订阅号）聊天的机器人 OneBot 12 实现。
 
 首次采用 [php-libonebot](https://github.com/botuniverse/php-libonebot) 快速开发！
