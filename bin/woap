@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+if (DIRECTORY_SEPARATOR === '\\') {
+    exec("CHCP 65001");
+}
+
+(new \Woap\WoapApplication())->run();

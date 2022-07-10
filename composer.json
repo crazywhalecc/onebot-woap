@@ -1,0 +1,26 @@
+{
+    "name": "crazywhalecc/onebot-woap",
+    "type": "project",
+    "require": {
+        "php": "^7.4 || ^8.0 || ^8.1",
+        "onebot/libonebot": "dev-master",
+        "symfony/console": "^4 || ^5 || ^6",
+        "symfony/yaml": "^6.1",
+        "crazywhalecc/cli-helper": "^0.1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "crazywhalecc",
+            "email": "jesse2061@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Woap\\": "src/Woap"
+        },
+        "files": [
+            "src/Woap/global_functions.php"
+        ]
+    }
+}

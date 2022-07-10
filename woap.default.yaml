@@ -1,0 +1,17 @@
+db: true
+logger:
+  class: OneBot\Logger\Console\ConsoleLogger
+  level: info
+driver:
+  class: OneBot\Driver\WorkermanDriver
+  config:
+    init_in_user_process_block: true
+    workerman_worker_num: 1
+communications:
+  - type: http     # 此处的第一个 HTTP 服务器是用于接收微信公众号的 Webhook 用的，flag 必须为 1000
+    host: 0.0.0.0
+    port: 7776
+    flag: 1000
+wx:
+  token: abcdefg
+  aeskey: USE12chars.!
